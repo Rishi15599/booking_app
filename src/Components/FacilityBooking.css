@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    text-align: center;
+    background-color: lemonchiffon;
+    font-family: sans-serif;
+}
+
+.title-heading{
+    color: rgb(70, 54, 179);
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight: 800;
+    text-shadow: 5px 5px 5px rgb(132, 113, 113);
+    background-color: cadetblue;
+}
+
+.form-div{
+    text-align: center;
+    justify-content: center;
+    border: 4px solid rgb(124, 106, 106);
+    padding: 1rem 0 1rem 0;
+    margin: 2rem 50rem 2rem 2rem;
+    border-radius: 20px;
+    color: darkslategrey;
+}
+
+.facility-div{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.2rem;
+}
+
+.date-div{
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 0.2rem;
+}
+
+.select-option{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.select-option:hover{
+    border: 2px solid darkblue;
+    background-color: seashell;
+}
+
+.startTime-div{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.2rem;
+}
+
+.endTime-div{
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0.2rem;
+}
+
+.submit-button{
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: rgb(69, 69, 121);
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.submit-button:hover{
+    filter: invert();
+}
+
+input{
+    width: 16rem;
+    height: 2rem;
+}
+
+input:hover{
+    border: 2px solid darkblue;
+    background-color: seashell;
+}
+
+label{
+    font-weight: 700;
+}
+
+.result-div{
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center;
+    justify-content: center;
+    border: 4px solid rgb(124, 106, 106);
+    padding: 1rem 0 1rem 0;
+    margin: -19rem 2rem 2rem 50rem;
+    border-radius: 20px;
+    color: darkslategrey;
+
+}
+
+.result-div h3{
+    background-color: rgb(67, 43, 43);
+    color: azure;
+    margin: 1rem 10rem 1rem 10rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+}
+
+.result-part{
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+
+
+@media (max-width:550px){
+    .title-heading{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    
+    .form-div{
+        border: 2px solid rgb(124, 106, 106);
+        margin: 0.2rem;
+        border-radius: 10px; 
+    }
+    
+    .facility-div{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .date-div{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .select-option{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+    .select-option:hover{
+        border: 2px solid darkblue;
+        background-color: seashell;
+    }
+
+    .date-div{
+        display: flex;
+    }
+
+    .lable{
+        margin: -10rem;
+    }
+
+    .date-div lable{
+        display: flex;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .startTime-div{
+        display: flex;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .endTime-div{
+        display: flex;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    .submit-button{
+        font-size: 1rem;
+        font-weight: 700;
+        width: 10rem;
+    }
+    
+    .submit-button:hover{
+        filter: invert();
+    }
+    
+    input{
+        width: 15rem;
+        height: 2.5rem;
+    }
+
+    input:hover{
+        border: 2px solid darkblue;
+        background-color: seashell;
+    }
+    
+    .result-div{
+        font-size: 1rem;
+        font-weight: 800;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid rgb(124, 106, 106);
+        padding: 1rem 0 1rem 0;
+        margin: 0.2rem;
+        border-radius: 10px;
+        color: darkslategrey;
+    }
+    
+    .result-div h3{
+        background-color: rgb(67, 43, 43);
+        color: azure;
+        margin: 1rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+
+    .result-part{
+        font-size: 0.8rem;
+    }
+}
